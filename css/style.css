@@ -1,0 +1,105 @@
+/*
+Copyright (c) 2017 B.Fodil
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+*/
+
+body{
+
+  background-color: #D2D7D3;
+}
+
+#quotebox {
+padding:50px;
+margin: auto;
+margin-top: 20px;
+margin-bottom: 20px;
+
+text-align: center;
+max-width:500px;
+background-color: transparent;
+}
+#quote-change{
+ padding-top: 20px;
+  height: 50px;
+}
+
+#quote-text{
+text-align: center;
+
+
+}
+#change{
+float:right;
+position: relative;
+right:0px;
+
+
+}
+.button{
+  height: inherit;
+  float: left;
+}
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+    opacity: 0.7;
+}
+
+/* Set a specific color for each brand */
+
+
+/* Twitter */
+.fa-twitter {
+
+    background: #55ACEE;
+    color: white;
+    border-radius: 50%;
+
+
+
+}
+#share
+{
+
+position: fixed;
+left: 5px;
+top: 50%;
+
+}
+#quote
+{
+font-family:'Spectral';
+font-size: 24px;
+
+}
+#quote-sayer
+{
+font-family:'Spectral';
+font-size: 15px;
+text-align: right;
+}
